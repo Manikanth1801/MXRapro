@@ -24,7 +24,75 @@ header,section,nav,footer{
 /* Hero section styles */
 .heroSection{
 	/* background-color: rgb(22, 110, 110); */
-	min-height: auto;
+	min-height: 100vh;
+}
+
+.heroLeftSide{
+	margin-top: 100px;
+}
+
+.herojumbotron{
+	padding: 0;
+}
+
+.heroRightSide img{
+	margin-top: 75px;
+}
+
+.herojumbotron h1{
+	font-family: Montserrat;
+    visibility: visible;
+    text-align: left;
+    line-height: 44px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 48px;
+    border-color: rgb(141, 141, 141);
+    border-style: none;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    color: rgb(80, 80, 80);
+}
+.herojumbotron .lead{
+	font-family: Montserrat;
+    visibility: visible;
+    text-align: left;
+    line-height: 29px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    border-color: rgb(141, 141, 141);
+    border-style: none;
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+	color: rgb(141, 141, 141);
+	margin-top: 30px;
+}
+.learnMoreBtn{
+	text-align: left;
+    line-height: 25px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    margin: 0px;
+    border-radius: 100px;
+	padding: 15px 45px;
+	transition: 0.5s all ease-in-out!important;
+	background-color: #fe5043!important;
+	font-size: 13px;
+	color: #fff!important;
+	position: relative;
+	margin-top: 20px;
+}
+/* .learnMoreBtn::after{
+position: absolute;
+
+} */
+.learnMoreBtn:hover{
+	letter-spacing: 3px;
 }
 
 /* haeder styles End */
