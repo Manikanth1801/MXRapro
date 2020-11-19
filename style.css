@@ -8,7 +8,7 @@ html,body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-header,section,nav,footer{
+header,section,nav,main,footer{
 	max-width: 1600px;
 	width: 100%;
 	margin: auto;
@@ -37,6 +37,7 @@ header,section,nav,footer{
 
 .heroRightSide img{
 	margin-top: 75px;
+	width: 60%;
 }
 
 .herojumbotron h1{
@@ -99,9 +100,128 @@ position: absolute;
 
 
 
+/* main styles Start */
 
+.anyQuestion h3{
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.anyQuestion h1{
+	font-weight: 200;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.anyQuestion h1 strong{
+	font-weight: 700;
+}
 
+.anyQuestion{
+	background-color: #8d8d8d47;
+	padding: 50px 0px;
+}
+.queryInputField{
+	border-radius: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+	padding-left: 30px;
+	background-color: #f9f9f9;
+}
 
+.messageInputField{
+	border-radius: 15px;
+    margin-bottom: 50px;
+    height: 180px; 
+	padding-left: 30px;
+	position: relative;
+	background-color: #f9f9f9;
+}
+.messageInputField::placeholder,
+.queryInputField::placeholder
+{
+	
+	color: #8d8d8d;
+}
+
+.sendMassagebtn{
+	border-radius: 50px;
+	border-radius: 100px;
+	font-size: 13px;
+    text-transform: uppercase;
+	border-width: 0;
+	font-weight: bold;
+	color: #fff;
+    line-height: 50px!important;
+    padding: 0 30px!important;
+    transition: 0.25s all ease-in-out;
+	height: 50px;
+	background-color: #fe5043;
+}
+
+.sendMassagebtn:hover{
+	color: #fff;
+}
+
+.featuresBtn{
+	padding: 11px 12px;
+    font-size: 15px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border: 0.125rem solid #fe5043;
+    background-color: white;
+    color: #fe5043;
+    font-weight: 600;
+    /* font: 1000 0.75rem/0 "Raleway", sans-serif; */
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.featuresBtn:hover{
+	color: #fe5043;
+}
+
+.ourServices-Section-featureText{
+	line-height: 1.8;
+	text-align: justify;
+	font-family: "Raleway";
+    color: #8d8d8d;
+    font-weight: 400;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.ourServices-Section-featureHeading{
+	font-size: 37px;
+	font-weight: 200;
+	font-family: "Montserrat";
+	color: #3f3f3f;
+	position: relative;
+	text-align: center;
+}
+.ourServices-Section-featureHeading strong{
+	font-weight: 700;
+}
+.ourServices-Section-featureHeading::after{
+    content: '';
+    display: block;
+    width: 32%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 2px;
+    left: 50%;
+    background-color: #fe5043;
+    bottom: -20px;
+
+}
+
+.ourServices-Section{
+	min-height: 300px;
+	margin-bottom: 100px;
+}
+
+/* main styles End */
 
 
 
