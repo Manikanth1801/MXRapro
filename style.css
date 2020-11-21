@@ -22,6 +22,43 @@ header,section,nav,main,footer{
 
 /* ++++++++++++++++++++++++++++ */
 /* Hero section styles */
+
+
+
+.ourServicesDropdown{
+	position: relative;
+}
+
+.ourServicesDropdownMenu{
+	width: 200px;
+	position: absolute;
+	height: 200px;
+	outline: 1px solid red;
+	z-index: 1;
+	display: none;
+	transition: 0.3s ease-in-out;
+	/* display: inline-block; */
+}
+
+
+
+.navbar-nav .nav-item{
+	margin-left: 20px;
+}
+.navbar-nav .nav-item .nav-link{
+	font-size: 15px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+
+.navbar{
+	box-shadow:  0px 2px 8px -7px #00000073;
+}
+
+
+
 .heroSection{
 	/* background-color: rgb(22, 110, 110); */
 	min-height: 100vh;
@@ -34,10 +71,15 @@ header,section,nav,main,footer{
 .herojumbotron{
 	padding: 0;
 }
+.heroRightSide{
+	width: 100%;
+	height: 100%;
+}
 
 .heroRightSide img{
-	margin-top: 75px;
-	width: 60%;
+    margin-top: 75px;
+    width: 100%;
+    object-fit: none;
 }
 
 .herojumbotron h1{
@@ -98,29 +140,204 @@ position: absolute;
 
 /* haeder styles End */
 
-
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* main styles Start */
 
-.anyQuestion h3{
+
+
+.OurServiceCard{
+	margin-bottom: 30px;
+}
+
+.ServicelearnMoreBtn{
+	text-align: left;
+    letter-spacing: 0px;
+    font-weight: 700;
+    border-color: rgb(255, 255, 255);
+    border-style: none;
+    margin: 0px;
+    border-radius: 100px;
+    padding: 8px 15px;
+    transition: 0.5s all ease-in-out!important;
+    border: 1px solid #8d8d8d59;
+    font-size: 6px;
+    color: #fff!important;
+    position: relative;
+}
+
+.ServicelearnMoreBtn:hover{
+	letter-spacing: 1px;
+    border: 1px solid #8d8d8d;
+
+}
+
+.OurServiceCardBody p{
+	line-height: 1.5;
+	font-weight: 400;
+	font-size: 7px;
+	color: #ffffff;
+}
+
+.OurServiceCardHeader h3{
+	font-size: 15px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.OurServiceCardHeader .fa{
+	background: -webkit-linear-gradient(45deg, #fe6c61, #fe6c61);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 30px;
+}
+
+.ourServicesHeader{
+	text-align: center;
+}
+
+.ourServicesHeader h5{
+	font-size: 8px;
+    font-weight: 300;
+	color: #ffffff;
+	margin: 0px 0px;
+	line-height: 3;
+}
+
+.ourServicesHeader h3{
+    font-size: 12px;
+    font-weight: 200!important;
+	color: #ffffff;
+	margin: 0px 0px;
+	line-height: 2;
+}
+
+.ourServicesHeader h4{
+    font-size: 18px;
+    font-weight: 700!important;
+	color: #ffffff;
+	margin: 0px 0px;
+}
+
+.ourServices{
+	width: 100%;
+	height: auto;
+	background: url(./assets/images/service_image.jpg), no-repeat;
+	background-size: inherit;
+	background-position: center;
+	zoom: 2;
+	margin-bottom: 80px;
+	padding: 30px 0px;
+}
+
+
+.anyQuestionsRight p{
+	font-size: 18px;
+    line-height: 28px;
+    font-weight: 200;
+    color: #a8a8a8;
+}
+
+.anyQuestionsRight h1{
+	font-family: 'Montserrat';
+	color: #3f3f3f;
+	font-size: 36px;
+	font-weight: 200;
+	text-align: left;
+}
+
+.anyQuestionsRight h1 strong{
+	font-weight: 700;
+}
+
+
+.anyQuestions{
+	margin-bottom: 80px;
+	padding: 30px 0px;
+}
+
+.someStatisticsConter{
+	margin-bottom: 30px;
+}
+
+.someStatisticsConter h1{
+	font-family: 'Montserrat';
+	color: #b4b4b4;
+	font-size: 72px;
+	font-weight: 300;
+	text-align: center;
+}
+.someStatisticsConter h4{
+	font-size: 24px;
+	font-weight: 300;
+	color: #3f3f3f;
+	text-align: center;
+
+	font-family: 'Montserrat';
+}
+
+.someStatisticsLeft h4{
+	font-size: 18px;
+    font-weight: 300;
+	color: #505050;
+	font-family: "Montserrat";
+}
+
+.someStatisticsLeft h2{
+	font-size: 40px;
+    font-weight: 200;
+	color: #505050;
+	font-family: "Montserrat";
+}
+
+.someStatisticsLeft p{
+	    font-size: 18px;
+	font-weight: 200;
+	font-family: "Montserrat";
+	color: #3f3f3f;
+	line-height: 1.5;
+}
+
+
+.someStatisticsLeft h2 strong{
+	font-weight: 700;
+	font-family: "Montserrat";
+}
+
+.someStatistics{
+	padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+.anyQuestionAboutus h3{
 	font-size: 18px;
 	font-weight: 200;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 75px;
 }
-.anyQuestion h1{
+.anyQuestionAboutus h1{
 	font-weight: 200;
 	font-size: 36px;
 	text-align: center;
 	margin-bottom: 15px;
 }
-.anyQuestion h1 strong{
+.anyQuestionAboutus h1 strong{
 	font-weight: 700;
 }
 
-.anyQuestion{
-	background-color: #8d8d8d47;
-	padding: 50px 0px;
+.anyQuestionAboutus{
+	background-color: #f8f8f8;
+	padding: 70px 0px 160px 0px;
+	background-image: url(./assets/images/contact_img.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 .queryInputField{
 	border-radius: 50px;
