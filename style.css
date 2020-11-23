@@ -25,22 +25,6 @@ header,section,nav,main,footer{
 
 
 
-.ourServicesDropdown{
-	position: relative;
-}
-
-.ourServicesDropdownMenu{
-	width: 200px;
-	position: absolute;
-	height: 200px;
-	outline: 1px solid red;
-	z-index: 1;
-	display: none;
-	transition: 0.3s ease-in-out;
-	/* display: inline-block; */
-}
-
-
 
 .navbar-nav .nav-item{
 	margin-left: 20px;
