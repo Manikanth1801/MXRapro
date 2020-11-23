@@ -8,3 +8,9 @@ $(function(){
         time: 2000
     });
   })
+
+
+
+
+
+  var rellax = new Rellax('.rellax');
