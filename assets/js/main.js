@@ -7,9 +7,30 @@ $(function(){
         delay: 10,
         time: 2000
     });
+
+
+//    $("").click(function(){
+//         $("p").toggleClass("main");
+//       });
+    
+
+
   })
 
 
+
+function toggleClass(){
+    $('.card').toggleClass('is-flipped');
+
+}
+
+
+
+
+//   var card = document.querySelector('.card');
+//   card.addEventListener( 'click', function() {
+//     card.classList.toggle('is-flipped');
+//   });
 
 
 

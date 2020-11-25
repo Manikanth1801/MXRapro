@@ -1,0 +1,127 @@
+.packages{
+    background-color: red;
+}
+
+
+
+
+
+
+
+.scene {
+    width: 100%;
+    height: 700px;
+    border: 1px solid #CCC;
+    margin: 40px 0;
+    perspective: 400px;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .card__face--front {
+    background: red;
+  }
+  
+  .card__face--back {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  
+
+
+  .pricing-switcher .fieldset{
+    display: inline-block;
+	position: relative;
+	padding: 2px;
+	border-radius: 50em;
+	border: 2px solid #2d3e50;
+  }
+
+  .pricing-switcher input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+
+
+.pricing-switcher label {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	float: left;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+
+.pricing-switcher .switch {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 40px;
+	width: 90px;
+	background-color: #2d3e50;
+	border-radius: 50em;
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.pricing-switcher input[type="radio"]:checked + label + .switch,
+.pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
+	-webkit-transform: translateX(90px);
+	-moz-transform: translateX(90px);
+	-ms-transform: translateX(90px);
+	-o-transform: translateX(90px);
+	transform: translateX(90px);
+}
+
+.no-js .pricing-switcher {
+	display: none;
+}
+
+.pricing-list {
+	margin: 2em 0 0;
+}
+
+.pricing-list > li {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+
+
+
+
+
+.input#monthly-1 .card .is-flipped{
+    
+}
