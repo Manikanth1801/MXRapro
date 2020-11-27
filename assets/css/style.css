@@ -123,12 +123,18 @@ position: absolute;
 	font-weight: 400;
 	font-size: 7px;
 	color: #ffffff;
+	min-height: 60px;
 }
 
 .OurServiceCardHeader h3{
 	font-size: 15px;
     font-weight: 200;
-    color: #ffffff;
+	color: #ffffff;
+	margin: 0;
+}
+
+.OurServiceCardHeader {
+    margin-bottom: 3px;
 }
 
 .OurServiceCardHeader .fa{
@@ -169,7 +175,7 @@ position: absolute;
 	width: 100%;
 	height: auto;
 	/* border: 1px solid red; 																					 */
-	background: url(./assets/images/service_image.jpg), no-repeat;
+	background: url(../images/service_image.jpg), no-repeat;
 	background-size: inherit;
 	background-attachment: fixed;
 	background-position: center;
@@ -226,6 +232,15 @@ position: absolute;
 	font-weight: 300;
 	text-align: center;
 }
+
+.someStatisticsConter span{
+	font-family: 'Montserrat';
+	color: #b4b4b4;
+	font-size: 72px;
+	font-weight: 300;
+	text-align: center;
+}
+
 .someStatisticsConter h4{
 	font-size: 24px;
 	font-weight: 300;
