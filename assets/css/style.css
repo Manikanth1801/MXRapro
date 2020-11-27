@@ -412,6 +412,25 @@ position: absolute;
 	margin-bottom: 100px;
 }
 
+
+
+
+.accordianHeader{
+	outline: 1px solid red;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 /* main styles End */
 
 
