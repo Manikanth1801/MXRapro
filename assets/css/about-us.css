@@ -1,0 +1,29 @@
+.aboutUsSection{
+    margin: 30px 0px;
+}
+
+
+.aboutCompany{
+    text-align: center;
+}
+
+
+.ourTeam{
+    margin: 50px 0px;
+}
+
+
+.teamCard{
+    padding: 20px;
+    box-shadow: 0px 0px 11px -7px #fe5043;
+}
+
+.teamCardTitle{
+    font-size: 18px;
+    text-align: center;
+}
+
+.teamCardBodyContent{
+    font-size: 12px;
+    text-align: center;
+}
