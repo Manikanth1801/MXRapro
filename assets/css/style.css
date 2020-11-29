@@ -124,6 +124,7 @@ position: absolute;
 	font-size: 7px;
 	color: #ffffff;
 	min-height: 60px;
+	margin-bottom: 3px;
 }
 
 .OurServiceCardHeader h3{
@@ -309,7 +310,7 @@ position: absolute;
 .anyQuestionAboutus{
 	background-color: #f8f8f8;
 	padding: 70px 0px 160px;
-	background-image: url(./assets/images/contact_img.png);
+	background-image: url(../images/contact_img.png);
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
@@ -427,6 +428,7 @@ position: absolute;
 .custaccordion .custCard {
     border: none;
 	margin-bottom: 10px;
+	border-radius: inherit;
 	
 }
 
@@ -461,8 +463,11 @@ position: absolute;
 
 
 
-
-
+.fa-- {transform: rotate(89deg);
+font-size: 16px;
+color: #8d8d8d;
+transition: 0.5s all;
+}
 
 
 

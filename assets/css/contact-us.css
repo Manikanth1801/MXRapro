@@ -1,13 +1,26 @@
 
 
 .contactUs{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: 100%;
+    /* outline: 10px solid green; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/aug.png);
 }
 
 
 
+.contactUs-form{
+    width: 500px;
+    background: rgba(204, 11, 11, 0.89);
+    /* border-radius: 10px; */
+    overflow: hidden;
+    min-height: 600px;
+    margin: 40px auto;
 
+}
 
 
 

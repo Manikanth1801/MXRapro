@@ -3,12 +3,40 @@ $(function(){
     $('.heroRightSide').effect( "slide", 2000 );
 
 
-  
 
-//    $("").click(function(){
-//         $("p").toggleClass("main");
-//       });
+
+
+
+
+
+    new WOW().init();
+
+    wow = new WOW(
+      {
+      boxClass:     'who-we-are',      // default
+      animateClass: '', // default
+      offset:       0,          // default
+      mobile:       true,       // default
+      live:         true        // default
+    })
+
+   
+  
+    // $(window).scroll(function() {    
+    //   var scroll = $(window).scrollTop();
+    //    console.log('?????',scroll);
     
+    //   if (scroll > 2356) {
+    //       //  alert();
+    //       console.log('a');
+    //       $('.OurServiceCard').addClass('animate__animated animate__fadeInUp d-block')
+    //       // $(".header").addClass("change");
+    //   } else {
+    //       console.log('a');
+    //       $('.OurServiceCard').removeClass('animate__animated animate__fadeInUp d-none')
+    //       // $(".header").removeClass("change");
+    //   }
+    //   });
 
 
 
@@ -41,8 +69,7 @@ function toggleClass(){
     time: 1000
   });
   
+   
 
-  // jQuery(document).ready(function($) {
-     
-  // });
 
+ 
