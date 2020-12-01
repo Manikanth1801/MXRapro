@@ -64,30 +64,60 @@
                                 <form>
                                     <div class="d-flex justify-content-around mb-4 custRadio">
                                         <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                            <input type="radio" id="customRadioInline1" name="customRadio" class="custom-control-input" checked>
                                             <label class="custom-control-label" for="customRadioInline1">Say Hi
                                             </label>
                                           </div>
                                           <div class="custom-control custom-radio custom-control-inline">
-                                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInline2">Get a Free Quote</label>
+                                            <input type="radio" id="customRadioInline2" name="customRadio" class="custom-control-input">
+                                            <label class="custom-control-label"  for="customRadioInline2">Get a Free Quote</label>
                                           </div>
                                     </div>
     
                                     <div class="form-group mb-4">
-                                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                      <input type="text" class="form-control custInput" id="exampleFormControlInput1" placeholder="Name">
                                     </div>
     
                                     <div class="form-group mb-4">
-                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                                        <input type="email" class="form-control custInput" id="exampleFormControlInput1" placeholder="Your Email">
+                                      </div>
+
+                                     <div class="mb-4  d-none" id="test" >
+                                        <div class="form-group mb-4">
+                                            <div class="dropdown">
+                                                <button class="btn btn-block custDropdown dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  Needed Services
+                                                </button>
+                                                <div class="dropdown-menu custDropdownMenu w-100" aria-labelledby="dropdownMenu2">
+                                                  <button class="dropdown-item" type="button">Action</button>
+                                                  <button class="dropdown-item" type="button">Another action</button>
+                                                  <button class="dropdown-item" type="button">Something else here</button>
+                                                </div>
+                                              </div>
+                                          </div>
+    
+                                          <div class="form-group mb-4">
+                                            <div class="dropdown">
+                                                <button class="btn btn-block custDropdown dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  Budget
+                                                </button>
+                                                <div class="dropdown-menu custDropdownMenu w-100" aria-labelledby="dropdownMenu2">
+                                                  <button class="dropdown-item" type="button">Action</button>
+                                                  <button class="dropdown-item" type="button">Another action</button>
+                                                  <button class="dropdown-item" type="button">Something else here</button>
+                                                </div>
+                                              </div>
+                                          </div>
+                                     </div>
+
+
+    
+                                      <div class="form-group mb-4">
+                                        <textarea class="form-control custInput" placeholder="Your Message" id="exampleFormControlTextarea1" rows="6"></textarea>
                                       </div>
     
                                       <div class="form-group mb-4">
-                                        <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1" rows="6"></textarea>
-                                      </div>
-    
-                                      <div class="form-group mb-4">
-                                       <button class="btn btn-primary">Submit</button>
+                                       <button class="btn submitBtn">Submit</button>
                                       </div>
     
                                 </form>
@@ -193,7 +223,7 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/jquery-ui.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
     <script src="./assets/js/jquery.counterup.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>

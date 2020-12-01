@@ -13,7 +13,7 @@
 
 
 .contactUs-form-container{
-    width: 500px;
+    max-width: 500px;
     background: rgba(204, 11, 11, 0.89);
     /* border-radius: 10px; */
     overflow: hidden;
@@ -36,10 +36,60 @@
 }
 
 
+.form-group .custInput{
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #ddd !important;
+    border: none;
+    border-radius: inherit;
+}
+
+.form-group .custInput::placeholder{
+    color: white;
+}
+
+.form-group .custInput:focus{
+            box-shadow: none;
+}
 
 
+.submitBtn{
+    background-color: white;
+    color: rgba(204, 11, 11, 0.89);
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: inherit;
+}
+
+.submitBtn:hover{
+    color: rgba(204, 11, 11, 0.89);
+}
 
 
+.custDropdown{
+    border-bottom: 1px solid #ddd;
+    border-radius: inherit;
+    text-align: left;
+    color: white;
+}
+
+.custDropdown:focus,.custDropdown:hover{
+    box-shadow: none;
+    color: white;
+}
 
 
+.dropdown{
+    outline: none;
+}
 
+.custDropdownMenu button{
+outline: none;
+}
+
+
+.test{
+    opacity: 0;
+    transition: 0.5s all ease-in-out;
+}

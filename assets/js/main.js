@@ -21,25 +21,20 @@ $(function(){
     })
 
    
+
+
+    $("input[name='customRadio']").click(function() {
+      if ($("#customRadioInline2").is(":checked")) {
+        $("#test").addClass('d-block')
+      } 
+      if ($("#customRadioInline1").is(":checked")) {
+        $("#test").removeClass('d-block')
+      }
+      else {
+        $("#test").hide();
+      }
+    });
   
-    // $(window).scroll(function() {    
-    //   var scroll = $(window).scrollTop();
-    //    console.log('?????',scroll);
-    
-    //   if (scroll > 2356) {
-    //       //  alert();
-    //       console.log('a');
-    //       $('.OurServiceCard').addClass('animate__animated animate__fadeInUp d-block')
-    //       // $(".header").addClass("change");
-    //   } else {
-    //       console.log('a');
-    //       $('.OurServiceCard').removeClass('animate__animated animate__fadeInUp d-none')
-    //       // $(".header").removeClass("change");
-    //   }
-    //   });
-
-
-
 
   })
 
