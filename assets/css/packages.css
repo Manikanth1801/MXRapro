@@ -1,162 +1,147 @@
-.packages{
-    background-color: rgba(204, 11, 11, 0.89);
+.packages {
+  background-color: rgba(204, 11, 11, 0.89);
 }
 
-
-.packages .packagestitle{
+.packages .packagestitle {
   padding: 40px 0px;
   font-weight: 600;
   /* font-size: 3.3em; */
   color: whitesmoke;
 }
 
-.packageCardHeader{
+.packageCardHeader {
   text-align: center;
 }
 
-.packageCardHeader h4{
+.packageCardHeader h4 {
   padding: 40px 20px 0px 0px;
   font-size: 2.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgb(187, 92, 28);  
+  color: rgb(187, 92, 28);
 }
 
-.packageCardHeader h1{
+.packageCardHeader h1 {
   padding: 0px 0px;
   font-size: 2.5rem;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgb(187, 92, 28);  
+  color: rgb(187, 92, 28);
 }
 
-.packageCardHeader h1 sup{
+.packageCardHeader h1 sup {
   font-size: 15px;
 }
 
-.pricing-features{
+.pricing-features {
   list-style: none;
   font-size: 15px;
   color: rgb(187, 92, 28);
   line-height: 3;
-
 }
-
 
 .scene {
-    width: 100%;
-    height: 700px;
-    /* border: 1px solid #CCC; */
-    margin: 40px 0;
-    perspective: 400px;
-  }
-  
-  .card {
-    width: 100%;
-    height: 100%;
-    transition: transform 1s;
-    transform-style: preserve-3d;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .card.is-flipped {
-    transform: rotateY(180deg);
-  }
-  
-  .card__face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    line-height: 260px;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .card__face--front {
-    background: #ffffff;
-  }
-  
-  .card__face--back {
-    background:#ffffff;
-    transform: rotateY(180deg);
-  }
-  
-
-
-  .pricing-switcher .fieldset{
-    display: inline-block;
-	position: relative;
-	padding: 2px;
-	border-radius: 50em;
-	border: 2px solid #2d3e50;
-  }
-
-  .pricing-switcher input[type="radio"] {
-	position: absolute;
-	opacity: 0;
+  width: 100%;
+  height: 3000px;
+  /* border: 1px solid #CCC; */
+  margin: 40px 0;
+  perspective: 400px;
 }
 
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: #ffffff;
+}
+
+.card__face--back {
+  background: #ffffff;
+  transform: rotateY(180deg);
+}
+
+.pricing-switcher .fieldset {
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  border-radius: 50em;
+  border: 2px solid #2d3e50;
+}
+
+.pricing-switcher input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
 
 .pricing-switcher label {
-	position: relative;
-	z-index: 1;
-	display: inline-block;
-	float: left;
-	width: 90px;
-	height: 40px;
-	line-height: 40px;
-	cursor: pointer;
-	font-size: 1.4rem;
-    color: #ffffff;
-    margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  float: left;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-bottom: 0;
 }
-
 
 .pricing-switcher .switch {
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 40px;
-	width: 90px;
-	background-color: #2d3e50;
-	border-radius: 50em;
-	-webkit-transition: -webkit-transform 0.5s;
-	-moz-transition: -moz-transform 0.5s;
-	transition: transform 0.5s;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 40px;
+  width: 90px;
+  background-color: #2d3e50;
+  border-radius: 50em;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
 }
 
-.pricing-switcher input[type="radio"]:checked + label + .switch,
-.pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
-	-webkit-transform: translateX(90px);
-	-moz-transform: translateX(90px);
-	-ms-transform: translateX(90px);
-	-o-transform: translateX(90px);
-	transform: translateX(90px);
+.pricing-switcher input[type="radio"]:checked+label+.switch, .pricing-switcher input[type="radio"]:checked+label:nth-of-type(n)+.switch {
+  -webkit-transform: translateX(90px);
+  -moz-transform: translateX(90px);
+  -ms-transform: translateX(90px);
+  -o-transform: translateX(90px);
+  transform: translateX(90px);
 }
 
 .no-js .pricing-switcher {
-	display: none;
+  display: none;
 }
 
 .pricing-list {
-	margin: 2em 0 0;
+  margin: 2em 0 0;
 }
 
-.pricing-list > li {
-	position: relative;
-	margin-bottom: 1em;
+.pricing-list>li {
+  position: relative;
+  margin-bottom: 1em;
 }
 
-
-
-
-
-
-.input#monthly-1 .card .is-flipped{
-    
-}
+.input#monthly-1 .card .is-flipped {}
