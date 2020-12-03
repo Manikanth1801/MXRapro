@@ -1,11 +1,10 @@
-
 .ourServicesHero {
     /* background-color: rgb(22, 110, 110); */
     /* height: 100vh; */
 }
 
 .ourServicesHeroLeft {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .herojumbotron {
@@ -93,21 +92,21 @@ position: absolute;
 
 /* main styles  start*/
 
-
-.ar-app-development{
+.ar-app-development {
     padding: 90px 0px;
 }
-.showcaseVideo{
+
+.showcaseVideo {
     border: 2px solid black;
 }
 
-.ar-app-container .ar-app-container-content{
+.ar-app-container .ar-app-container-content {
     color: #626262;
     font: 400 0.875rem/1.375rem "Raleway", sans-serif;
     margin-bottom: 30px;
 }
 
-.ar-app-container .ar-app-container-title{
+.ar-app-container .ar-app-container-title {
     font-size: 30px;
     font-weight: 300;
     line-height: 24px;
@@ -121,13 +120,13 @@ position: absolute;
     margin-bottom: 30px;
 }
 
-.ourSerivces h1{
+.ourSerivces h1 {
     color: #393939;
     font: 700 3rem/3.5rem "Raleway", sans-serif;
     text-align: center;
 }
 
-.knowMoreBtn{
+.knowMoreBtn {
     display: inline-block;
     padding: 1.375rem 2.625rem 1.375rem 2.625rem;
     border: 0.125rem solid #fe5043;
@@ -140,21 +139,18 @@ position: absolute;
     text-decoration: none;
 }
 
-.knowMoreBtn:hover{
+.knowMoreBtn:hover {
     text-decoration: none;
-    color: #fe5043; 
+    color: #fe5043;
     background-color: white;
 }
 
-.ourSerivcesLeft p{
+.ourSerivcesLeft p {
     color: #626262;
     font: 400 0.875rem/1.375rem "Raleway", sans-serif;
 }
 
-
-
-
-.ourSerivcesLeft h4{
+.ourSerivcesLeft h4 {
     color: #272f43;
     font-size: 30px;
     border-bottom: solid #ddd 1px;
@@ -164,20 +160,19 @@ position: absolute;
     font: 700 1.375rem/1.875rem "Raleway", sans-serif;
 }
 
-
-.ourSerivces{
+.ourSerivces {
     position: relative;
     /* padding-bottom: 90px; */
-   background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 .what-we-do {
     position: relative;
     padding: 90px 0px;
-   background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
-.what-we-do::before{
+.what-we-do::before {
     width: 92px;
     height: 30px;
     background: url(./assets/images/das_bg.png);
@@ -188,7 +183,8 @@ position: absolute;
     top: 100px;
     right: 70px;
 }
-.what-we-do::after{
+
+.what-we-do::after {
     width: 92px;
     height: 30px;
     background: url(./assets/images/das_bg.png);
@@ -200,7 +196,7 @@ position: absolute;
     left: 70px;
 }
 
-.what-we-do h1{
+.what-we-do h1 {
     color: #393939;
     font: 700 3rem/3.5rem "Raleway", sans-serif;
     text-align: center;
@@ -269,4 +265,3 @@ position: absolute;
 }
 
 /* main style end */
-
