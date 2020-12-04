@@ -264,4 +264,38 @@ position: absolute;
     color: white;
 }
 
+.aboutServiceTitle {
+    color: #393939;
+    font: 700 1.75rem/2rem "Raleway", sans-serif;
+    position: relative;
+    margin-top: 10%;
+}
+
+.aboutService hr {
+    width: 70px;
+    background-color: #00bfd8;
+    border: 2px solid #00bfd8;
+}
+
+.aboutService h5 {
+    color: #393939;
+    font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+}
+
+.aboutServiceContent {
+    color: #626262;
+    font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
+.aboutServiceCheckList {
+    list-style: none;
+}
+
+.aboutServiceCheckList li {
+    text-transform: capitalize;
+    color: #626262;
+    margin-bottom: 5px;
+    font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
 /* main style end */
