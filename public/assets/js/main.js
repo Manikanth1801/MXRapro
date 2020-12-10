@@ -54,6 +54,20 @@ $(function () {
       $("#test").hide();
     }
   });
+
+  // accrdian function
+
+  $(".custCard .card-header").each(function () {
+    console.log("?????", $this);
+    // and test its normalized href against the url pathname regexp
+    // if(urlRegExp.test(this.href.replace(/\/$/,''))){
+    //     $(this).addClass('active');
+    // }
+  });
+
+  // $(".custCard .card-header").on("click", () => {
+
+  // });
 });
 
 function toggleClass() {
@@ -67,8 +81,3 @@ function toggleClass() {
 }
 
 var rellax = new Rellax(".rellax");
-
-$(".counter").counterUp({
-  delay: 10,
-  time: 1000,
-});
