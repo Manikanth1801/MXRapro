@@ -62,9 +62,20 @@
     border-radius: inherit;
     text-align: left;
     color: white;
+    position: relative;
 }
 
-.custDropdown:focus, .custDropdown:hover {
+.custDropdown:focus {
+    box-shadow: none;
+}
+
+.custDropdown::after {
+    position: absolute;
+    right: 0;
+    transform: translate(-10px, 10px);
+}
+
+.custDropdown .custDropdown:focus, .custDropdown:hover {
     box-shadow: none;
     color: white;
 }
