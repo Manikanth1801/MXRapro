@@ -1,4 +1,6 @@
 $(function () {
+  window.scroll(0, 0);
+
   var a = 0;
   $(window).scroll(function () {
     // alert();
@@ -32,7 +34,7 @@ $(function () {
   });
 
   // alert();
-  $(".heroRightSide").effect("slide", 2000);
+  $(".aboutCompanyRightSide").effect("slide", 2000);
 
   new WOW().init();
 

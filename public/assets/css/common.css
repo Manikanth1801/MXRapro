@@ -219,3 +219,14 @@ header, section, nav, main, footer {
 .sendMassagebtn:hover {
 	color: #fff;
 }
+
+.f-contactUs, .f-knowUs {
+	width: 80%;
+	margin-left: auto;
+}
+
+@media screen and (max-width:450px) {
+	.f-contactUs, .f-knowUs {
+		width: 100%;
+		margin-left: 0;
+	}
