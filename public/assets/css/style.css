@@ -16,15 +16,49 @@
 }
 
 .heroForm {
-	border: 1px solid #dddddd;
-	width: 80%;
+	border: 1px solid #bdbbbb;
+	width: 100%;
 	padding: 20px;
-	margin: 100px auto;
+	margin-top: 5rem;
+	border-radius: 0.5rem;
+}
+
+.heroFormLabel {
+	font-size: 15px;
+}
+
+.heroFormInput {
+	border: 1px solid #dddddd;
+}
+
+.heroFormInput::placeholder {
+	font-size: 15px;
 }
 
 .heroRightSide {
 	width: 100%;
 	height: 100%;
+}
+
+.heroSubmitBtn {
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	background: rgb(191, 51, 40);
+	background: linear-gradient(90deg, rgba(191, 51, 40, 1) 12%, rgba(254, 80, 67, 1) 54%);
+}
+
+.heroForm h4 {
+	text-align: center;
+}
+
+.heroSubmitBtn:hover {
+	color: white;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 .heroRightSide img {
@@ -341,7 +375,7 @@ position: absolute;
 	height: 2px;
 	left: 50%;
 	background-color: #fe5043;
-	bottom: -20px;
+	bottom: -10px;
 }
 
 .ourServices-Section {
