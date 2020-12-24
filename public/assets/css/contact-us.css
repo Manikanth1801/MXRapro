@@ -2,18 +2,21 @@
     /* min-height: 100vh; */
     height: 100%;
     /* outline: 10px solid green; */
-    /* background-position: center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/aug.png); */
+    /* background: url(../images/contact.webp), linear-gradient(#fe5043, #f82314); */
+    background: url(../images/contact.webp), linear-gradient(#fe504357, #f82314);
 }
 
 .contactUs-form-container {
     max-width: 500px;
-    background: rgba(204, 11, 11, 0.89);
+    /* background: rgba(204, 11, 11, 0.89); */
+    background-color: white;
     /* border-radius: 10px; */
     overflow: hidden;
     min-height: 600px;
+    color: black;
     margin: 40px auto;
 }
 
@@ -23,21 +26,21 @@
 }
 
 .custRadio label {
-    color: white;
+    color: black;
     font-weight: 500;
     cursor: pointer;
 }
 
 .form-group .custInput {
     background: transparent;
-    color: white;
+    color: black;
     border-bottom: 1px solid #ddd !important;
     border: none;
     border-radius: inherit;
 }
 
 .form-group .custInput::placeholder {
-    color: white;
+    color: black;
 }
 
 .form-group .custInput:focus {
@@ -45,23 +48,26 @@
 }
 
 .submitBtn {
-    background-color: white;
-    color: rgba(204, 11, 11, 0.89);
+    color: white;
+    background-color: rgba(204, 11, 11, 0.89);
     padding: 10px 30px;
-    font-size: 15px;
+    bac font-size: 15px;
     font-weight: 600;
     border-radius: inherit;
 }
 
 .submitBtn:hover {
     color: rgba(204, 11, 11, 0.89);
+    background-color: white;
+    outline: 2px solid rgba(204, 11, 11, 0.89);
+    ;
 }
 
 .custDropdown {
     border-bottom: 1px solid #ddd;
     border-radius: inherit;
     text-align: left;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -91,4 +97,38 @@
 .test {
     opacity: 0;
     transition: 0.5s all ease-in-out;
+}
+
+.circle {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.address, .phone, .email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.contactDetails {
+    /* display: flex;
+    align-items: center; */
+    /* border: 1px solid red; */
+    /* width: 50%; */
+}
+
+.contactDetails p {
+    margin: 0;
+    font-size: 16px;
+    color: white;
 }
