@@ -1,7 +1,7 @@
 wow = new WOW(
     {
       animateClass: 'animated',
-      offset:       100,
+      offset:       50,
       callback:     function(box) {
         console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
       }

@@ -130,7 +130,7 @@ header, section, nav, main, footer {
 }
 
 .bottomFooter {
-	height: 70px;
+	height: 30px;
 	padding: 10px 0px;
 	display: flex;
 	justify-content: center;
@@ -229,4 +229,4 @@ header, section, nav, main, footer {
 	.f-contactUs, .f-knowUs {
 		width: 100%;
 		margin-left: 0;
-	}
+	}}

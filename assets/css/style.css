@@ -4,7 +4,7 @@
 
 .heroSection {
 	/* background-color: rgb(22, 110, 110); */
-	min-height: 100vh;
+	/* min-height: 100vh; */
 }
 
 .heroLeftSide {
@@ -454,3 +454,8 @@ position: absolute;
 .caroBg{
     background: whitesmoke;
 } */
+
+
+.warning-bar {
+	visibility: hidden;
+  }
