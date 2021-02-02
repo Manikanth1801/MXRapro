@@ -245,7 +245,7 @@ footer styles end */
 --------------------------------------------------------------*/
 #footer {
 	font-size: 14px;
-	background: #fc8279;
+	background: #e6e6e6;
   }
 
  svg {
@@ -256,26 +256,27 @@ footer styles end */
    .wave {
 	animation: wave 3s linear;
 	animation-iteration-count:infinite;
-	fill: #fe5043;
+	fill: #9e9d9d;
   }
   
   
    #wave2 {
 	animation-duration:5s;
 	animation-direction: reverse;
-	opacity: .6
+	opacity: .8;
+	fill: #eeeeee;
+	z-index: 6000;
   }
  #wave3 {
 	animation-duration: 7s;
-	opacity:.3;
+	opacity:.6;
+
   }
   
   @keyframes wave {
 	to {transform: translateX(-100%);}
   }
-  @keyframes ball {
-	to {transform: translateY(20%);}
-  }
+  
   
   
   
@@ -356,13 +357,13 @@ footer styles end */
 	line-height: 24px;
 	margin-bottom: 0;
 	font-family: "Jost", sans-serif;
-	color: #ffffff;
+	color: black;
   }
   
   #footer .footer-top h4 {
 	font-size: 16px;
 	font-weight: bold;
-	color: #faf9f9;
+	color: #fe5043;
 	position: relative;
 	padding-bottom: 12px;
   }
@@ -379,7 +380,7 @@ footer styles end */
   
   #footer .footer-top .footer-links ul i {
 	padding-right: 2px;
-	color: #fcfbfa;
+	color: #fe5043;
 	font-size: 18px;
 	line-height: 1;
   }
@@ -395,7 +396,7 @@ footer styles end */
   }
   
   #footer .footer-top .footer-links ul a {
-	color: #ffffff;
+	color: #020202;
 	transition: 0.3s;
 	display: inline-block;
 	line-height: 1;
@@ -431,7 +432,7 @@ footer styles end */
 	padding-top: 30px;
 	padding-bottom: 30px;
 	/* background: #fe5043; */
-	color: #fff;
+	color: rgb(15, 15, 15);
   }
   
   #footer .copyright {
